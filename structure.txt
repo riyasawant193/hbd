@@ -1,0 +1,9 @@
+test-site/
+│
+├── index.html        # Main website file
+├── style.css         # All styling
+├── script.js         # All interactivity
+├── assets/
+│   ├── photos/       # Memories / trip down memory lane
+│   ├── audio/        # Playlist or songs
+│   ├── video/        # Cinematic edit + personal surprise video

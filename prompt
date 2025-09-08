@@ -1,0 +1,51 @@
+Create a full-screen, interactive birthday website with 4 distinct sections and the following specifications:
+
+**Overall Requirements:**
+- Auto-play background music when website loads
+- Fully mobile responsive design
+- Smooth scrolling between sections
+- Vibrant, celebratory color scheme with animations
+
+**Section 1 - Hero Birthday Wish:**
+- Split layout: Left side = "HAPPY BIRTHDAY" text with giant animated letters
+- Right side = Photo placeholder for birthday person's picture
+- Add floating balloon animations around the screen
+- Include confetti falling animation continuously
+- Background with gradient colors and subtle animations
+
+**Section 2 - Message & Media:**
+- Left side: Heartfelt birthday message text + QR code for Spotify playlist
+- Right side: 3-photo collage layout of birthday person's pictures
+- Use card-style design with hover effects
+- Include smooth transitions and shadows
+
+**Section 3 - Interactive Photo Grid:**
+- Pinterest-style masonry layout of multiple photos
+- On hover: photos should glow with colored border
+- On click: reveal hidden text overlay showing "favorite thing about him" or special memory
+- Each photo should have unique personal message that appears
+- Smooth reveal animations for text overlays
+
+**Section 4 - Video Surprise:**
+- Black background section for dramatic effect
+- Text animation sequence: "I have got something special for you" (word-by-word reveal)
+- After text completes, video frame appears with fade-in effect
+- Video placeholder for self-recorded message
+- Inspired by the style from fajarghifar.github.io/happybirthday/
+
+**Technical Features:**
+- CSS animations for all interactive elements
+- Responsive breakpoints for mobile/tablet/desktop
+- Audio controls (play/pause button for background music)
+- Smooth scrolling navigation
+- Modern glassmorphism design elements
+- Performance optimized for mobile devices
+
+**Design Style:**
+- Modern, playful, and celebratory
+- Use of gradients, shadows, and blur effects
+- Consistent color palette throughout
+- Typography that's readable on all devices
+- Engaging micro-interactions and hover states
+
+Create this as a single HTML file with embedded CSS and JavaScript for full functionality.
