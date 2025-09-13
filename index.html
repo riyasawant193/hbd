@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Add inside <head> -->
     
     <style>
         /* CSS RESET & DEFAULTS */
@@ -17,14 +19,14 @@
         }
 
         :root {
-            --primary-color: #6a11cb;
-            --secondary-color: #2575fc;
-            --accent-color: #ff4e50;
-            --text-light: #f0f0f0;
-            --text-dark: #333;
-            --glass-bg: rgba(255, 255, 255, 0.1);
-            --glass-border: rgba(255, 255, 255, 0.2);
-        }
+            --primary-color: #669bbc;      /* blue-gray */
+            --secondary-color: #003049;    /* dark blue */
+            --accent-color: #c1121f;       /* red */
+            --text-light: #fdf0d5;         /* light cream */
+            --text-dark: #780000;          /* dark red */
+            --glass-bg: rgba(0, 48, 73, 0.7); /* semi-transparent dark blue */
+            --glass-border: rgba(102, 155, 188, 0.3); /* semi-transparent blue-gray */
+}
 
         html {
             scroll-behavior: smooth;
@@ -57,7 +59,7 @@
             height: 100vh;
             width: 100%;
             z-index: -1;
-            background: linear-gradient(45deg, #6a11cb, #2575fc, #ff4e50, #f8c146);
+            background: linear-gradient(45deg, 669bbc, 003049, fdf0d5, c1121f, 780000);
             background-size: 400% 400%;
             animation: gradient-animation 15s ease infinite;
         }
@@ -81,12 +83,19 @@
         }
         
         .hero-text h1 {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 900;
-            font-size: clamp(3rem, 12vw, 8rem);
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: clamp(1rem, 10vw, 6rem);
             line-height: 1;
             color: #fff;
             text-shadow: 0 0 10px rgba(255,255,255,0.5), 0 0 20px rgba(255,255,255,0.3);
+        }
+
+        .hero-text p {
+            font-family: 'Tangerine', serif;
+            font-size: 4rem;
+            margin-top: 1rem;
+            color: var(--text-light);
         }
 
         .hero-text span {
@@ -222,7 +231,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: var(--accent-color);
+            color: fdf0d5;
         }
         
         .message-card p {
@@ -439,7 +448,7 @@
         }
         
         #start-overlay h2 {
-            font-size: 3rem;
+            font-size: 1rem;
             margin-bottom: 1rem;
         }
         
@@ -503,6 +512,7 @@
 
     <div id="start-overlay" style="display:none;">
         <h2>A Special Surprise Awaits...</h2>
+        <h2>Disclaimer: This might just be the few of the corniest lines you've read but they're all very true.</h2>
         <p>Click anywhere to begin</p>
     </div>
 
@@ -518,36 +528,37 @@
 
         <div class="hero-content hero-text">
             <h1>
-                <span>H</span><span>A</span><span>P</span><span>P</span><span>Y</span><br>
-                <span>B</span><span>I</span><span>R</span><span>T</span><span>H</span><span>D</span><span>A</span><span>Y</span>
+                <span>H</span><span>a</span><span>p</span><span>p</span><span>y</span><br>
+                <span>B</span><span>i</span><span>r</span><span>t</span><span>h</span><span>d</span><span>a</span><span>y</span>
+            <p>Vighnesh</p>
             </h1>
         </div>
         <div class="hero-content hero-photo">
             <div class="photo-placeholder">
-                <img src="https://picsum.photos/id/237/400/400" alt="Birthday Person">
+                <img src="images/IMG-20250815-WA0032.jpg" alt="Birthday Person">
             </div>
         </div>
     </section>
 
     <section id="message">
         <div class="message-card">
-            <h2>To The Best Person I Know</h2>
-            <p>On this special day, I just wanted to take a moment to celebrate you! You bring so much joy, laughter, and light into the lives of everyone lucky enough to know you. May your birthday be as amazing and wonderful as you are. Here's to another year of incredible adventures and cherished memories. Cheers!</p>
+            <h2>To my sabar ka phal, the love of my life</h2>
+            <p>Happy birthday baby. Thank you for being born you inspire me to be a better version of myself everything so incredibly grateful to the gods that they led you to me. It's difficult to put into words what someone means to you but you are my favorite human being and for that today is the most important day (i know you don't care for it) because it was the day you began existing. Wish you nothing but forever worth of happiness (with me tehee :p) I hope you know that i love you with every ounce of my being muah.</p>
             <div class="qr-code">
-                <img src="https://www.qrcode-generator.com/wp-content/themes/qr/new_structure/markets/core_market_full/generator/dist/generator/assets/images/websiteQRCode_noFrame.png" alt="Spotify Playlist QR Code">
-                <p>A special playlist just for you!</p>
+                <img src="images/Screenshot_20250913_190952_Spotify.jpg" alt="Spotify Playlist QR Code">
+                <p>love feels exactly like this playlist because you're all mine</p>
             </div>
         </div>
         <div class="media-card">
             <div class="photo-collage">
                 <div class="collage-img collage-img-1">
-                    <img src="https://picsum.photos/id/1025/400/600" alt="Collage Photo 1">
+                    <img src="images/20250702_201604.jpg" alt="Collage Photo 1">
                 </div>
                 <div class="collage-img collage-img-2">
-                    <img src="https://picsum.photos/id/1062/400/300" alt="Collage Photo 2">
+                    <img src="images/20250607_152728.jpg" alt="Collage Photo 2">
                 </div>
                 <div class="collage-img collage-img-3">
-                    <img src="https://picsum.photos/id/1084/400/300" alt="Collage Photo 3">
+                    <img src="images/IMG-20250827-WA0045.jpg" alt="Collage Photo 3">
                 </div>
             </div>
         </div>
@@ -557,47 +568,47 @@
         <h2>A Few of My Favorite Moments</h2>
         <div class="masonry-grid">
             <div class="grid-item">
-                <img src="https://picsum.photos/id/103/500/700" alt="Memory 1">
-                <div class="text-overlay">My favorite thing about this day was seeing how happy you were. Your smile was infectious!</div>
+                <img src="images/IMG-20250325-WA0055.jpg" alt="Memory 1">
+                <div class="text-overlay">Your reaction to me wearing a saree was the highlight of my life absolutely love the way you look at me</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/212/500/400" alt="Memory 2">
-                <div class="text-overlay">Remember this adventure? It was so spontaneous and perfect. I'll never forget it.</div>
+                <img src="images/IMG-20250713-WA0482.jpg" alt="Memory 2">
+                <div class="text-overlay">Our first real trip together best bunch of days honestly remember when i very visibly foul played kicked you to get a goal that was fun no? :p</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/292/500/800" alt="Memory 3">
-                <div class="text-overlay">This quiet moment is one of my most cherished memories with you. Pure bliss.</div>
+                <img src="images/IMG_20250713_202914_970.jpg" alt="Memory 3">
+                <div class="text-overlay">With just a forehead kiss, you mend the hidden corners of me.</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/305/500/500" alt="Memory 4">
-                <div class="text-overlay">The time we laughed so hard we couldn't breathe. Best. Day. Ever.</div>
+                <img src="images/IMG-20241102-WA0078.jpg" alt="Memory 4">
+                <div class="text-overlay">our first diwali together you kept complimenting me every step of the way you looked so nice all dressed up it was such a beautiful day</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/355/500/750" alt="Memory 5">
-                <div class="text-overlay">This photo perfectly captures your adventurous spirit. Never stop exploring!</div>
+                <img src="images/IMG-20250522-WA0142.jpg" alt="Memory 5">
+                <div class="text-overlay">Kalesh karun gharatun nighaleli but totally worth it our first cricket match so much more to come </div>
             </div>
              <div class="grid-item">
-                <img src="https://picsum.photos/id/431/500/600" alt="Memory 6">
-                <div class="text-overlay">Thinking about this makes me smile every time. You have a way of making ordinary moments extraordinary.</div>
+                <img src="images/IMG-20250122-WA0046.jpg" alt="Memory 6">
+                <div class="text-overlay">Moments after we grabbed a bite to eat and made out on the empty beach yes so much fun</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/433/500/750" alt="Memory 7">
-                <div class="text-overlay">That epic sunset we watched together. A perfect end to a perfect day.</div>
+                <img src="images/20250422_145340.jpg" alt="Memory 7">
+                <div class="text-overlay">This was the week i was not feeling all that well was struggling with my health and you came over to take care of me that was so sweet of you</div>
             </div>
             <div class="grid-item">
-                <img src="https://picsum.photos/id/593/500/800" alt="Memory 8">
-                <div class="text-overlay">A reminder of your strength and grace. You inspire me every single day.</div>
+                <img src="images/20250531_170558(1).jpg" alt="Memory 8">
+                <div class="text-overlay">one of the many times we went to the beach but had to leave early fun day though</div>
             </div>
         </div>
     </section>
 
     <section id="surprise">
         <div class="surprise-text">
-            I have got something special for you...
+            I made a little something for you...
         </div>
         <div class="video-container">
             <video controls>
-                <source src="https://videos.pexels.com/video-files/3209828/3209828-sd_640_360_30fps.mp4" type="video/mp4">
+                <source src="images/VN20250426_120116.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
